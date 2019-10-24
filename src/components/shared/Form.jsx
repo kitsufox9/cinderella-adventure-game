@@ -3,19 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Form = () => (
     <form>
-        <label>Name</label>
+        <label>What's Your Name?</label>
+        <br></br>
         <input 
-            placeholder="Name"
-                    
+            placeholder="Name"         
         />
-
-        <label>Gender</label>
-        <select>
-            <option>Male</option>
-            <option>Female</option>
-            <option>Non-Binary</option>
-        </select>
-
+        <br></br>
         <Link to="/">
             <button type="submit">Submit</button>
         </Link>
