@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
-const Layout = () => {
+const Layout = (props) => {
     return(
-        <div>
-
+        <div className="App">
+            <Header />
+                {props.children}
+            <Footer />
         </div>
     )
 }
